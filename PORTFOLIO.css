@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    /* font-family: 'Arial', sans-serif; */
 }
 
 body {
@@ -12,8 +14,6 @@ body {
 }
 
 header {
-    /* background-color: #222;
-    color: #fff; */
     background: rgb(255,40,6);
     background: linear-gradient(90deg, rgba(255,40,6,1) 0%, rgba(204,157,35,1) 35%, rgba(255,252,0,1) 100%);
     padding: 20px 0;
@@ -56,7 +56,7 @@ nav a {
     padding: 10px 20px;
     padding-block: 0.5rem;
     padding-inline: 1.25rem;
-    background-color: rgb(153, 174, 187);
+    background-color: rgb(226, 217, 178);
     border-radius: 9999px;
     /*display: flex;*/
     align-items: center;
@@ -141,17 +141,6 @@ nav a {
     margin-top: 20px;
 }
 
-/* .hire-me-btn, .call-btn {
-    background-color: #f8ce15;
-    height: 50px;
-    color: #fff;
-    padding: 10px 20px;
-    margin-right: 10px;
-    border: none;
-    cursor: pointer;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px #1b1b1b79;
-} */
 
 .hero-image img {
     max-width: 300px;
@@ -201,8 +190,7 @@ nav a {
 }
 
 .stats {
-    /* background-color: #333;
-    color: #fff; */
+   
     background: rgb(255,40,6);
     background: linear-gradient(90deg, rgba(255,40,6,1) 0%, rgba(204,157,35,1) 35%, rgba(255,252,0,1) 100%);
     padding: 50px 5%;
@@ -243,18 +231,18 @@ nav a {
     font-size: 1rem;
     margin-bottom: 10px;
 }
-/* Add to your existing CSS */
+
 
 .feedback-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Space between feedback items */
+    gap: 20px; 
     justify-content: space-between;
     margin-top: 20px;
   }
   
   .feedback-item {
-    flex: 1 1 calc(33.33% - 20px); /* Create 3 columns */
+    flex: 1 1 calc(33.33% - 20px); 
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 10px;
@@ -278,19 +266,18 @@ nav a {
   
   @media (max-width: 768px) {
     .feedback-item {
-      flex: 1 1 calc(50% - 20px); /* Adjust for smaller screens */
+      flex: 1 1 calc(50% - 20px); 
     }
   }
   
   @media (max-width: 480px) {
     .feedback-item {
-      flex: 1 1 100%; /* Full width for very small screens */
+      flex: 1 1 100%; 
     }
   }
   
 .cta {
-    /*background-color: #222;
-    color: #fff;*/
+   
     background: rgb(255,40,6);
     background: linear-gradient(90deg, rgba(255,40,6,1) 0%, rgba(204,157,35,1) 35%, rgba(255,252,0,1) 100%);
     padding: 50px 5%;
@@ -312,8 +299,6 @@ nav a {
 
 
 footer {
-    /*background-color: #111;
-    color: #fff;*/
     padding: 20px;
     text-align: center;
     background: rgb(255,40,6);
@@ -344,7 +329,6 @@ footer .social-links a {
       height: 40px;
     }
 
-    /* Responsive Hero Section */
     .hero {
       display: flex;
       flex-direction: column;
@@ -368,7 +352,7 @@ footer .social-links a {
       height: auto;
     }
 
-    /* Responsive Service Section */
+
     .services, .projects, .stats, .feedback, .cta, footer {
       padding: 1em;
       text-align: center;
@@ -384,7 +368,7 @@ footer .social-links a {
       width: 100%;
     }
 
-    /* Statistics and CTA */
+  
     .stats {
       display: flex;
       flex-direction: column;
@@ -400,13 +384,13 @@ footer .social-links a {
       font-size: 1rem;
     }
 
-    /* Footer Styling */
+   
     footer {
       padding: 1em;
       font-size: 0.9rem;
     }
 
-    /* Media Query for Larger Screens */
+   
     @media (min-width: 768px) {
       .hero {
         flex-direction: row;
