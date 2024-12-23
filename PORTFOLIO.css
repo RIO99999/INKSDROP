@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Arial', sans-serif; */
 }
 
 body {
@@ -134,7 +133,7 @@ nav a {
 }
 
 .highlight {
-    color: #f8ce15;
+    color: #f88e15;
 }
 
 .buttons {
