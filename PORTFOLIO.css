@@ -8,13 +8,14 @@
 
 body {
     background-color: #f4f4f4;
-    color: #333;
+    color: #000000;
     font-size: 16px;
 }
 
 header {
-    background: rgb(255,40,6);
-    background: linear-gradient(90deg, rgba(255,40,6,1) 0%, rgba(204,157,35,1) 35%, rgba(255,252,0,1) 100%);
+    background: #f4b41a;
+    color: white;
+    background: linear-gradient(45deg, #f4b41a  40%, #143d59 100%);
     padding: 20px 0;
 }
 
@@ -133,7 +134,7 @@ nav a {
 }
 
 .highlight {
-    color: #f88e15;
+    color: #143d59;
 }
 
 .buttons {
@@ -190,8 +191,8 @@ nav a {
 
 .stats {
    
-    background: rgb(255,40,6);
-    background: linear-gradient(90deg, rgba(255,40,6,1) 0%, rgba(204,157,35,1) 35%, rgba(255,252,0,1) 100%);
+    /* background: rgb(255,40,6); */
+    background: linear-gradient(45deg, #f4b41a  40%, #143d59 100%);
     padding: 50px 5%;
     display: flex;
     flex-wrap: wrap;
@@ -260,7 +261,7 @@ nav a {
     display: block;
     margin-top: 10px;
     font-weight: bold;
-    color: #e83a30;
+    color: #143d59;
   }
   
   @media (max-width: 768px) {
@@ -277,8 +278,8 @@ nav a {
   
 .cta {
    
-    background: rgb(255,40,6);
-    background: linear-gradient(90deg, rgba(255,40,6,1) 0%, rgba(204,157,35,1) 35%, rgba(255,252,0,1) 100%);
+    /* background: rgb(255,40,6); */
+    background: linear-gradient(90deg, #f4b41a  40%, #143d59 100%);
     padding: 50px 5%;
 
     text-align: center;
@@ -300,8 +301,8 @@ nav a {
 footer {
     padding: 20px;
     text-align: center;
-    background: rgb(255,40,6);
-background: linear-gradient(90deg, rgba(255,40,6,1) 0%, rgba(204,157,35,1) 35%, rgba(255,252,0,1) 100%);
+    /* background: rgb(255,40,6); */
+    background: linear-gradient(90deg, #f4b41a  40%, #143d59 100%);
 }
 
 footer .social-links {
